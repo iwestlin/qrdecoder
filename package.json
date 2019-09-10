@@ -1,0 +1,23 @@
+{
+  "name": "qrdecoder",
+  "version": "1.0.0",
+  "repository": "iwestlin/qrdecoder",
+  "description": "A command line tool to decode local qrcode image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qrcode",
+    "decode"
+  ],
+  "author": "viegg",
+  "license": "MIT",
+  "dependencies": {
+    "jsqr": "^1.2.0",
+    "pngjs": "^3.4.0"
+  },
+  "bin": {
+    "qrdecoder": "./bin/qrdecoder"
+  }
+}
